@@ -47,4 +47,3 @@ test/M952902_test.c		:  Defines the test function.
 test/M952902.mak		:  Defines the make file.
     
 For compilation, one needs to use the command "make -f M952902.mak", and execute the generated executable file named "M952902_test".
-
