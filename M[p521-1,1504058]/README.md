@@ -1,8 +1,10 @@
 # Implementation of shared secret computation for the curve M[2^(521)-1,1504058]
 
-# Implementation name		: 	intel64-64-maax
-# Reference instructions	: 	mulx/adcx/adox
-# Scalarmult cpu-cycles		: 	Skylake - 689588, Kaby Lake - 666044
+Implementation name		: 	intel64-64-maax
+
+Reference instructions	: 	mulx/adcx/adox
+
+Scalarmult cpu-cycles	: 	Skylake - 689588, Kaby Lake - 666044
 
 This implementation corresponds to the paper "Efficient Elliptic Curve Diffie-Hellman Computation at the 256-bit Security Level" authored by
 
@@ -45,4 +47,3 @@ test/M1504058_test.c		:  Defines the test function.
 test/M1504058.mak		:  Defines the make file.
     
 For compilation, one needs to use the command "make -f M1504058.mak", and execute the generated executable file named "M1504058_test".
-
