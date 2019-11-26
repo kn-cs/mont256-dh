@@ -1,8 +1,10 @@
 # Implementation of shared secret computation for the curve M[2^(510)-75,952902]
 
-# Implementation name		: 	intel64-64-maax
-# Reference instructions	: 	mulx/adcx/adox
-# Scalarmult cpu-cycles		: 	Skylake - 566088, Kaby Lake - 546849
+Implementation name		: 	intel64-64-maax
+
+Reference instructions	: 	mulx/adcx/adox
+
+Scalarmult cpu-cycles	: 	Skylake - 566088, Kaby Lake - 546849
 
 This implementation corresponds to the paper "Efficient Elliptic Curve Diffie-Hellman Computation at the 256-bit Security Level" authored by
 
