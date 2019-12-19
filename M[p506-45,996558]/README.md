@@ -24,7 +24,7 @@ include/gf_p50645_arith.h       :  Declares prototypes of field arithmetic funct
 
 include/gf_p50645_pack.h        :  Declares prototypes of functions for byte to 64-bit integer conversion of field elements and vice versa.
 
-include/M996558.h    		    :  Declares prototypes of functions for Montgomery ladder and variable base scalar multiplication.
+include/M996558.h    		    :  Declares prototypes of functions for Montgomery ladder and shared secret computation.
 
 source/M996558_shared_secret.c	:  Defines the function for shared secret computation.
 
